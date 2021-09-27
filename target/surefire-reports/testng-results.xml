@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-27T05:46:19Z" name="Suite" finished-at="2021-09-27T05:46:48Z" duration-ms="29540">
+    <groups>
+    </groups>
+    <test started-at="2021-09-27T05:46:19Z" name="TestDevOps" finished-at="2021-09-27T05:46:48Z" duration-ms="29540">
+      <class name="loginTest.ComparisionTC">
+        <test-method signature="f()[pri:0, instance:loginTest.ComparisionTC@46271dd6]" started-at="2021-09-27T05:46:39Z" name="f" finished-at="2021-09-27T05:46:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- loginTest.ComparisionTC -->
+      <class name="loginTest.AppTest">
+        <test-method signature="InvalidLoginTest()[pri:0, instance:loginTest.AppTest@1ef6d34c]" started-at="2021-09-27T05:46:39Z" name="InvalidLoginTest" description="Invalid test" finished-at="2021-09-27T05:46:39Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTest -->
+        <test-method signature="validLoginTest()[pri:0, instance:loginTest.AppTest@1ef6d34c]" started-at="2021-09-27T05:46:39Z" name="validLoginTest" description="valid test" finished-at="2021-09-27T05:46:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- loginTest.AppTest -->
+      <class name="loginTest.DemoFrontAcc">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:loginTest.DemoFrontAcc@2049a9c1]" started-at="2021-09-27T05:46:19Z" name="beforetest" finished-at="2021-09-27T05:46:39Z" duration-ms="20355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="doLogin()[pri:0, instance:loginTest.DemoFrontAcc@2049a9c1]" started-at="2021-09-27T05:46:39Z" name="doLogin" finished-at="2021-09-27T05:46:45Z" duration-ms="6138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:loginTest.DemoFrontAcc@2049a9c1]" started-at="2021-09-27T05:46:45Z" name="aftertest" finished-at="2021-09-27T05:46:48Z" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- loginTest.DemoFrontAcc -->
+    </test> <!-- TestDevOps -->
+  </suite> <!-- Suite -->
+</testng-results>
